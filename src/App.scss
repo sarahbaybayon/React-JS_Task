@@ -1,0 +1,115 @@
+.header-container {
+  width: 1319px;
+  margin: 0 auto;
+  height: 98px;
+  border: solid #fff;
+  border-bottom-color: #c4c4c4;
+  border-width: 0 0 1px 0;
+  margin-bottom: 50px;
+
+  h1 {
+    width: 91.8%;
+    float: left;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+
+  .btn-container {
+    vertical-align: middle;
+    display: table-cell;
+    height: 98px;
+    .new-alert {
+      padding: 10px;
+      width: 108px;
+      height: 36px;
+      background: #512da8;
+      border-radius: 3px;
+      color: #fff;
+      cursor: pointer;
+      -webkit-user-select: none;
+      user-select: none;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+      border: none;
+      display: flex;
+      position: relative;
+
+      img {
+        margin-right: 6px;
+      }
+    }
+  }
+}
+
+.content-container {
+  width: 1319px;
+  margin: 0 auto;
+}
+.alert-container {
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: "Lato";
+  font-style: normal;
+  color: #000000;
+  padding: 14px;
+  border: solid #cccccc;
+  border-left-color: #6ae6c6;
+  border-width: 1px 1px 1px 8px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+
+  .alert-icon {
+    margin-right: 13px;
+  }
+  .type-text {
+    width: 101px;
+    font-size: 15px;
+    line-height: 40px;
+    align-items: center;
+    margin-right: 53px;
+  }
+
+  .time-stamp {
+    width: 90px;
+    margin-right: 64px;
+    font-size: 12px;
+    line-height: 40px;
+    align-items: center;
+
+    .num-text {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+  }
+
+  .desc-text {
+    font-size: 15px;
+    line-height: 40px;
+    align-items: center;
+  }
+
+  .remove-icon {
+    margin-left: auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border-width: 0 0 0 1px;
+    border-left-color: #cccccc;
+    cursor: pointer;
+  }
+}
+
+.error-left {
+  border-left-color: #e61d2b;
+}

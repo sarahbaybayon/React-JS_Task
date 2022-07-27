@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# IDF Recruitment Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Goals
 
-## Available Scripts
+- Collaborate with IDF' engineers on an every-day set of tasks, showcasing general problem solving.
 
-In the project directory, you can run:
+## Guidance
 
-### `npm start`
+- It's about the path and **not** the end result.
+- Don't feel stressed about completing everything, it's the process that matters!
+- Work towards the bigger picture. Don't spend too much time on the details.
+- Ask any question any time. Don't hesitate to get help.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone this repo and create a branch (yymmdd-candidate-name) to work on.
 
-### `npm test`
+## Tasks
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend
 
-### `npm run build`
+The [mock_data.json](./assets/mock_data.json) file contains some mock API data. You can use the NPM package [json-server](https://www.npmjs.com/package/json-server) to start a mock REST api for frontend prototyping.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Create a base React app with Typescript using any method desired.
+   Align your work to the [designs provided in Figma](https://www.figma.com/file/7famY6yrvQhwf2SOkliVDv/Recruitment-Project).
+2. The main page should list the Alerts as returned from the API in descending order of the _createdOn_ timestamp.
+3. The (x) should dismiss the alerts based on local state.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- You can use the [provided icon assets](./assets/icons) if desired, or anything you prefer.
+- The option to create a new alert can be considered a stretch goal, and can be implemented however desired (e.g. additional
+  UI or dynamic input is not required - whatever you feel like doing is OK).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Back end
 
-### `npm run eject`
+1. Create a base NodeJS using any preferred frameworks and libraries.
+   NodeJS is the most common backend language at IDF, but if you're more comfortable with node.js that's fine too.
+   Implement endpoints for:
+   - List _Errors_
+   - Delete _Errors_ (soft delete only)
+2. Create a data store using any technology that is capable of storing the structures found in the
+   [mock_data.json](./assets/mock_data.json) file, and as required by your endpoints.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- You can use a RESTful API or GraphQL (if you have mocked the frontend with REST, you've probably already decided!).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Finishing up
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Push your solution and create a PR onto main.

@@ -1,0 +1,31 @@
+{
+  "announcements": [
+    {
+      "id": "61a967b11b7979087ba7bd93",
+      "createdOn": "2022-01-03T04:52:20.000Z",
+      "title": "March Product Update: Webhooks, Latency, Reach Module"
+    },
+    {
+      "id": "61a967b1fe5ff83ddeafd516",
+      "createdOn": "2022-01-02T01:56:17.000Z",
+      "title": "Christmas Leave Period"
+    }
+  ],
+  "errors": [
+    {
+      "id": "61a967b15613893b5f89b231",
+      "createdOn": "2022-01-02T08:34:09.000Z",
+      "title": "Workday: Failed to trigger profile update"
+    },
+    {
+      "id": "61a967b1f45b21868cfc838f",
+      "createdOn": "2022-01-02T06:09:19.000Z",
+      "title": "LiveTiles Cards: Failed to create card"
+    },
+    {
+      "id": "61a967b1ed1341bff0427d7a",
+      "createdOn": "2022-01-01T06:16:25.000Z",
+      "title": "Monday: Outlook integration has failed authentication"
+    }
+  ]
+}
